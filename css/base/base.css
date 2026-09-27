@@ -1,0 +1,22 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+}
+
+a,
+p {
+    color: var(--text-secondary);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

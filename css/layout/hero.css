@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 150px;
+    width: 95%;
+    min-height: 500px;
+
+    padding: 10px 150px 10px 50px;
+    border-radius: 25px;
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(220, 220, 220, 1) 20%,
+            rgba(220, 220, 220, 0.5) 60%,
+            rgba(220, 220, 220, 0.1) 100%
+        ),
+        url("../../img/background-img.jpg");
+    background-position: 100% center;
+    background-repeat: no-repeat;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero__button {
+    padding: 15px 50px;
+    width: 75%;
+    color: black;
+    background-color: var(--button-bg);
+    border-radius: 15px;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 1s ease;
+}
+
+.hero__button:hover {
+    background-color: var(--text-secondary);
+    transform: translateY(-10px) scale(1.1);
+}

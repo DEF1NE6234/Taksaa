@@ -1,0 +1,52 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    padding: 50px;
+    background-color: var(--bg-color);
+}
+
+.photo-block__img {
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.6s ease both;
+}
+.photo-block__img:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.photo-block__img:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.photo-block__img:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.photo-block__img:nth-child(4) {
+    animation-delay: 0.4s;
+}
+.photo-block__img:nth-child(5) {
+    animation-delay: 0.5s;
+}
+.photo-block__img:nth-child(6) {
+    animation-delay: 0.6s;
+}
+.photo-block__img:nth-child(7) {
+    animation-delay: 0.7s;
+}
+.photo-block__img:nth-child(8) {
+    animation-delay: 0.8s;
+}

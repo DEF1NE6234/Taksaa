@@ -1,0 +1,15 @@
+.subhero {
+    margin: 32px auto 32px auto;
+    width: fit-content;
+    height: 400px;
+}
+
+.subhero__img {
+    border-radius: 20px;
+    height: 100%;
+    transition: transform 1.5s ease;
+}
+
+.subhero__img:hover {
+    transform: scaleY(0.8) scaleX(2);
+}

@@ -1,0 +1,12 @@
+:root {
+    --about-bg: #e8dcc8;
+    --header-bg: #151719;
+    --bg-color: #f9f6f0;
+    --card-bg-color: #ffffff;
+    --text-primary: #2c221e;
+    --text-secondary: #6b5e55;
+    --button-bg-hover: #b04e20;
+    --button-bg: #b7c9a8;
+
+    --shadow-base: 0 0 20px 12px rgba(255, 255, 255, 0.08);
+}
