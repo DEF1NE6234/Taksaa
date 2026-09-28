@@ -46,3 +46,21 @@
     transform: translateY(-10px) scale(1.1);
     box-shadow: var(--shadow-base);
 }
+
+@media (max-width: 1279px) {
+    .header__logo 
+        font-size: 16px;
+    }
+    .header__logo {
+        width: 64px;
+    }
+    .nav__link {
+        font-size: 12px;
+    }
+    .nav__list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+        
